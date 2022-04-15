@@ -1,0 +1,67 @@
+* {
+   box-sizing: border-box;
+}
+body {;
+  background-image: url(https://d3stdg5so273ei.cloudfront.net/andreasav/2019-06-01/865450/AndreaSavchenko_Final-andreasav.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.decor {
+   position: relative;
+   max-width: 400px;
+   margin: 150px auto 0;
+   background: #fafafa;
+   border-radius: 30px;
+}
+
+
+.form-inner {
+   padding: 50px;
+
+
+}
+.form-inner input, .form-inner textarea {
+   display: block;
+   width: 100%;
+   padding: 0 20px;
+   margin-bottom: 10px;
+   line-height: 40px;
+   border-width: 0;
+   border-radius: 10px;
+   font-family: 'Roboto', sans-serif;
+}
+
+/*Кнопка*/
+.form-inner input[type="submit"] {
+   margin-top: 30px;
+   background: #9932cc;
+   box-shadow: 0 3px #660066;
+   
+   color: white;
+   font-size: 17px;
+}
+
+
+.form-inner textarea {
+   resize: none;
+}
+
+/*Надпись "Ура, вы прошли!"*/
+.form-inner h3 {
+   margin-top: 0;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 24px;
+   color: #666666;
+}
+
+.main-container
+{
+   padding-top: 20%;
+}
